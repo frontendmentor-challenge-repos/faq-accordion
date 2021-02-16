@@ -1,0 +1,41 @@
+/* Variables */
+:root{
+    /* TYPOGRAPHY */
+    --font-size         : 12px;
+    --font-family       : 'Kumbh Sans', sans-serif;
+    --font-weight-light : 400;
+    --font-weight-bold  : 700;
+
+    /* COLORS */ /* PRIMARY */
+    
+        /* Text */
+    --soft-red : hsl(14, 88%, 65%);
+    --very-dark-desat-blue : hsl(238, 29%, 16%);
+
+        /* Gradient */
+    --soft-violet : hsl(273, 75%, 66%);
+    --soft-blue   : hsl(240, 73%, 65%);
+
+    /* COLORS */ /* NEUTRAL */
+
+        /* Text */
+    --very-dark-grayish-blue : hsl(237, 12%, 33%);
+    --dark-grayish-blue      : hsl(240, 6%, 50%);
+
+        /* Border */
+    --divider-color : hsl(240, 5%, 91%);
+
+
+    /* UNITS */
+    --max-width: 300px;
+    --global-unit: calc(var(--font-size) * 2); 
+    --transition-time: .1s;
+
+    --bg-pattern: url('../images/bg_patterns/bg-pattern-mobile.svg');
+}
+@media screen and (min-width: 695px) {
+    :root{
+        --max-width: 750px;
+        --bg-pattern: url('../images/bg_patterns/bg-pattern-desktop.svg');
+    }
+}
