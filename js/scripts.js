@@ -1,3 +1,4 @@
+const faq = document.getElementById('faq');
 const accordion = document.getElementById('accordion');
 
 const questions = Array.from(document.querySelectorAll('.accordion__question'))
