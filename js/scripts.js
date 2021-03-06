@@ -1,4 +1,3 @@
-const faq = document.getElementById('faq');
 const accordion = document.getElementById('accordion');
 
 const questions = Array.from(document.querySelectorAll('.accordion__question'))
@@ -11,9 +10,6 @@ const removeClass = (target, classToRemove) => {
     })
 }
 
-faq.addEventListener('click', (e) => {
-    console.log(e.target)
-})
 accordion.addEventListener('click', (e) => {
 
     if (!e.target.classList.contains('accordion__question')) return
