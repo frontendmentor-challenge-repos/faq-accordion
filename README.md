@@ -2,7 +2,7 @@
 
 ![Design preview for the FAQ accordion card coding challenge](./design/desktop-preview.jpg)
 
-[Link to challenge](https://www.frontendmentor.io/solutions/faq-accordion-with-html-css-and-javascript-3ODpkixBV)
+[Link to challenge](https://www.frontendmentor.io/solutions/faq-accordion-with-html-css-and-javascript-3ODpkixBV) - [Demo](https://frontendmentor-challenge-repos.github.io/faq-accordion/)
 
 My Social Networks
 
